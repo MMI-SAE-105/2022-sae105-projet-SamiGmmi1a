@@ -1,11 +1,18 @@
 body{
     background-color: black;
 }
-
+button{
+    background-color: black;
+}
 h1{
     color: white;
 }
 P{
     color: white;
 }
-
+a{
+    color: white;
+}
+nav{
+    color: white;
+}
