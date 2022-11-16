@@ -17,44 +17,33 @@
 
     <body>
         <header>
-            <div x-data="{ouvre : false">
-                <button @click="ouvre : !ouvre">
-                <li><a href="#"><img src="public/icons/logo menu.svg" alt="menu"></a></li>
-            <nav x-show="ouvre"
-            x-transition:enter="ouvre"
-            x-transition:leave="ferme">
-            <ul>
-
-                <li><a href="Fr/En.html">Fr/En</a></li>
+            <li><a href="mainNav" @click="menuIsOpen : ! menuIsOpen" class="header_menubtn"><img src="public/icons/logo menu.svg" alt="menu"></a></li>
+            <button @click="menuIsOpen : ! menuIsOpen">
+        <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+            <a href="Fr/En.html">Fr/En</a></li>
                 
-                <li><a href="index.html"><img src="public/icons/home 1.svg" alt=""></a></li>
-                <li><a href="home.html">home</a></li>
-
-                <li><a href="lieu.html"><img src="public/icons/map-pin (1) 1.svg" alt=""></a></li>
-                <li><a href="lieu.html">ISS</a></li>
-
-                <li><a href="livre.html"><img src="public/icons/book 2.svg" alt=""></a></li>
-                <li><a href="livre.html">outsphere</a></li>
-
-                <li><a href="musique.html"><img src="public/icons/music 2.svg" alt=""></a></li>
-                <li><a href="musique.html">Also Pracht...</a></li>
-
-                <li><a href="film.html"><img src="public/icons/film 2.svg" alt=""></a></li>
-                <li><a href="film.html">Wall-E</a></li>
-
-                <li><a href="regret.html"><img src="public/icons/user-minus 2.svg" alt=""></a></li>
-                <li><a href="regret.html">Un sombre avenir</a></li>
-
-                <li><a href="espoire.html"><img src="public/icons/user-plus 2.svg" alt=""></a></li>
-                <li><a href="espoire.html">Vivre sur la lune</a></li>
-
-                <li><a href="glossaire.html"><img src="public/icons/search 2.svg" alt=""></a></li>
-                <li><a href="Glossaire.html">Glossaire</a></li>
-
-                <li><a href="a_propos.html"><img src="public/icons/Group 56.svg" alt=""></a></li>
-                <li><a href="Apropos.html">A propos</a></li>
-            </ul>
-        </nav>
+            <nav>
+                <ul>
+                    <a href="index.html"><img src="public/icons/home 1.svg" alt=""></a></li>
+                    <a href="index.html.html">home</a></li>
+                    <a href="lieu.html"><img src="public/icons/map-pin (1) 1.svg" alt=""></a></li>
+                    <a href="lieu.html">ISS</a></li>
+                    <a href="livre.html"><img src="public/icons/book 2.svg" alt=""></a></li>
+                    <a href="livre.html">outsphere</a></li>
+                    <a href="musique.html"><img src="public/icons/music 2.svg" alt=""></a></li>
+                    <a href="musique.html">Also Pracht...</a></li>
+                    <a href="film.html"><img src="public/icons/film 2.svg" alt=""></a></li>
+                    <a href="film.html">Wall-E</a></li>
+                    <a href="regret.html"><img src="public/icons/user-minus 2.svg" alt=""></a></li>
+                    <a href="regret.html">Un sombre avenir</a></li>
+                    <a href="espoire.html"><img src="public/icons/user-plus 2.svg" alt=""></a></li>
+                    <a href="espoire.html">Vivre sur la lune</a></li>
+                    <a href="glossaire.html"><img src="public/icons/search 2.svg" alt=""></a></li>
+                    <a href="Glossaire.html">Glossaire</a></li>
+                    <a href="a_propos.html"><img src="public/icons/Group 56.svg" alt=""></a></li>
+                    <a href="Apropos.html">A propos</a></li>
+                </ul>
+            </nav>
             <button>   
                 <span></span>
             </button>
