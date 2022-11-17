@@ -1,94 +1,94 @@
     <!DOCTYPE html>
     <html lang="en">
-    <head>
+ <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>techno</title>
-    </head>
-
-<header>
-    <button aria_contol="mainNav" @click="menuIsOpen : ! menuIsOpen" class="header_menubtn"><img src="public/icons/logo menu.svg" alt="menu">
-    </button>
-    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
-        
-    <a href="Fr/En.html">Fr/En</a></li>
-    
-        <ul>
-                <li><a href="index.html"><img src="public/icons/home 1.svg" alt=""></a></li>
-                <li><a href="index.html">home</a></li>
-
-                <li><a href="lieu.html"><img src="public/icons/map-pin (1) 1.svg" alt=""></a></li>
-                <li><a href="lieu.html">ISS</a></li>
-
-                <li><a href="livre.html"><img src="public/icons/book 2.svg" alt=""></a></li>
-                <li><a href="livre.html">outsphere</a></li>
-
-                <li><a href="musique.html"><img src="public/icons/music 2.svg" alt=""></a></li>
-                <li><a href="musique.html">Also Pracht...</a></li>
-
-                <li><a href="film.html"><img src="public/icons/film 2.svg" alt=""></a></li>
-                <li><a href="film.html">Wall-E</a></li>
-
-                <li><a href="regret.html"><img src="public/icons/user-minus 2.svg" alt=""></a></li>
-                <li><a href="regret.html">Un sombre avenir</a></li>
-
-                <li><a href="espoire.html"><img src="public/icons/user-plus 2.svg" alt=""></a></li>
-                <li><a href="espoire.html">Vivre sur la lune</a></li>
-
-                <li><a href="glossaire.html"><img src="public/icons/search 2.svg" alt=""></a></li>
-                <li><a href="Glossaire.html">Glossaire</a></li>
-
-                <li><a href="a_propos.html"><img src="public/icons/Group 56.svg" alt=""></a></li>
-                <li><a href="Apropos.html">A propos</a>
-        </ul>
-    </nav>
-
-    <a href="/">
-        <img src="public/icons/X'plore logo.svg" alt="logo X'plore">
-    </a>
-</header>
+</head>
 
 <body>
-    <div>
-            <h1 class="header_1">X'plore</h1>
-            <h2 class="header_2">3 INVENTIONS INCROYABLES de l’ISS</h2>
-            <h3 class="header_3">Les NOUVELLES découvertes de DEMAIN</h3>
-            <p>L’impesanteur rend possible ce qui est impossible sur terre. Avec son cadre sans pesanteur et son environnement adéquate, la base ISS est le lieu idéal où des expériences, impossibles sur terres, sont réalisables dans l’espace. Voici 3 découvertes incroyables dans l’espace.</p>
-
-            <img src="public/img/photo/ISS/techno.webp" alt="les_nouvelles_technologies">
-
-            <h3 class="header_3">Les inventions qui feront notre demain</h3>
-            <p>3. Télémaque 
-                C’est l’invention que nous retiendrons le plus. Pouvoir manipuler des objets sans les toucher, uniquement avec des ondes acoustiques. C’est une innovation Française testée par Tomas PESQUET. Sur terre, l’invention n’a pas connu un succès flagrant. Les différentes forces exercées par l’attraction terrestre compliquent le processus. Mais dans l’ISS, cette technologie a pu être y développé, les premiers essais se sont révélés être un succès.</p>
-            <p>2. le potager de l’ISS
-                A bord de l’ISS a été dégusté les premières laitues spatiales. Un exploit. Pour coloniser les autres planètes, nous devons être capable de produire ses propres ressources alimentaires. Transporter l’ensemble du ravitaillement nécessaire demanderait une trop grande quantité d’énergie, les futurs astronautes devront vivre en total autonomie. Or, les conditions d’une culture sans pesanteur nous restent encore inconnues. Cette expérience donne une première idée d’une culture en orbite et de connaitre les conditions nécessaires pour son agriculture. L’expérience a été réalisée le 7 juillet 2015, pendant 33 jours. Les résultats sont positifs, les scientifiques ont bonne espoir et espèrent pouvoir cultiver des fruits à bord de la station. 
-            </p>
-            <p>1. La matière noire  
-                Après une étude de 18 mois, les astronautes à bord de l’ISS expliquent avoir observé l’existence de la matière noire. Par définition, ce qui s’oppose à la matière « ordinaire » qui nous entoure et que nous pouvons voir (atomes, étoiles, planètes…). Cette découverte est de loin la plus importante de toutes. D’après la théorie du Big Bang, après la création de l’univers, différentes molécules se seraient échappées et agglutinées entre-elles avec la matière noire. Les fluctuations énergétiques produites lors de cette fusion seraient responsables de notre existence. </p>
+    <header class="header">
+        <div class="header_start">
+            <a href="/">
+                <img src="public/icons/X'plore_logo.svg" alt="Logo X'plore class="header_logo">
+            </a>
         </div>
 
-        <article>
-                <h5 class="header_5">3 consequences d’un voyage spatial</h5>
-                <img src="public/img/photo/ISS/corps.webp" alt="conséquences-d'un-voyage-spatial-sur-le-corps">
-                <a href="corps.html"><img src="public/icons/button.svg.svg"></a>
-            </a>
-        </article>
+        <div class="header_end">
+            <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header_menubtn"><img src="public/icons/logo menu.svg" alt=""></button>
+              <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+                <a href="Fr/En.html">Fr/En</a></li>
+    
+                <ul>
+                        <li><a href="index.html"><img src="public/icons/home 1.svg" alt=""></a></li>
+                        <li><a href="index.html">home</a></li>
+        
+                        <li><a href="lieu/lieu.html"><img src="public/icons/map-pin (1) 1.svg" alt=""></a></li>
+                        <li><a href="lieu/lieu.html">ISS</a></li>
+        
+                        <li><a href="livre.html"><img src="public/icons/book 2.svg" alt=""></a></li>
+                        <li><a href="livre.html">outsphere</a></li>
+        
+                        <li><a href="musique.html"><img src="public/icons/music 2.svg" alt=""></a></li>
+                        <li><a href="musique.html">Also Pracht...</a></li>
+        
+                        <li><a href="film.html"><img src="public/icons/film 2.svg" alt=""></a></li>
+                        <li><a href="film.html">Wall-E</a></li>
+        
+                        <li><a href="regret.html"><img src="public/icons/user-minus 2.svg" alt=""></a></li>
+                        <li><a href="regret.html">Un sombre avenir</a></li>
+        
+                        <li><a href="espoire.html"><img src="public/icons/user-plus 2.svg" alt=""></a></li>
+                        <li><a href="espoire.html">Vivre sur la lune</a></li>
+        
+                        <li><a href="glossaire.html"><img src="public/icons/search 2.svg" alt=""></a></li>
+                        <li><a href="Glossaire.html">Glossaire</a></li>
+        
+                        <li><a href="a_propos.html"><img src="public/icons/Group 56.svg" alt=""></a></li>
+                        <li><a href="Apropos.html">A propos</a>
+                </ul>
+        </div>
+    </header>  
 
-</body>
+<main>
+    <div>
+        <h1>X'plore</h1>
+        <h2>3 INVENTIONS INCROYABLES de l’ISS</h2>
+        <h3>Les NOUVELLES découvertes de DEMAIN</h3>
+        <p>L’impesanteur rend possible ce qui est impossible sur terre. Avec son cadre sans pesanteur et son environnement adéquate, la base ISS est le lieu idéal où des expériences, impossibles sur terres, sont réalisables dans l’espace. Voici 3 découvertes incroyables dans l’espace.</p>
+        <img src="public/icons/techno.svg" alt="les inventions incroyables">
+    </div>
 
+    <div>
+        <h3>Les inventions qui feront notre demain</h3>
+        <p>3. Télémaque 
+            C’est l’invention que nous retiendrons le plus. Pouvoir manipuler des objets sans les toucher, uniquement avec des ondes acoustiques. C’est une innovation Française testée par Tomas PESQUET. Sur terre, l’invention n’a pas connu un succès flagrant. Les différentes forces exercées par l’attraction terrestre compliquent le processus. Mais dans l’ISS, cette technologie a pu être y développé, les premiers essais se sont révélés être un succès.</p>
+        <p>
+            2. le potager de l’ISS : 
+            A bord de l’ISS a été dégusté les premières laitues spatiales. Un exploit. Pour coloniser les autres planètes, nous devons être capable de produire ses propres ressources alimentaires. Transporter l’ensemble du ravitaillement nécessaire demanderait une trop grande quantité d’énergie, les futurs astronautes devront vivre en total autonomie. Or, les conditions d’une culture sans pesanteur nous restent encore inconnues. Cette expérience donne une première idée d’une culture en orbite et de connaitre les conditions nécessaires pour son agriculture. L’expérience a été réalisée le 7 juillet 2015, pendant 33 jours. Les résultats sont positifs, les scientifiques ont bonne espoir et espèrent pouvoir cultiver des fruits à bord de la station. 
+        </p>
+        <p>1.	La matière noire : 
+            Après une étude de 18 mois, les astronautes à bord de l’ISS expliquent avoir observé l’existence de la matière noire. Par définition, ce qui s’oppose à la matière « ordinaire » qui nous entoure et que nous pouvons voir (atomes, étoiles, planètes…). Cette découverte est de loin la plus importante de toutes. D’après la théorie du Big Bang, après la création de l’univers, différentes molécules se seraient échappées et agglutinées entre-elles avec la matière noire. Les fluctuations énergétiques produites lors de cette fusion seraient responsables de notre existence. </p>
+    </div>
 
-<footer>
-    <p>abonnez - vous gratuitement pour découvrir nos nouveaux articles </p>
+    <article>
+        <a href="corps.html">
+            <h5 class="Header_5">3 CONSEQUENCES D'UN VOYAGE SPATIAL</h5>
+            <img src="public/img/photo/ISS/corps.webp" alt="iss">
+            <a href="corps.html"><img src="public/icons/button.svg.svg"></a>
+    </article>
 
-    <button>
-        <a href="s'abonner.html"><img src="public/icons/s'abonner.svg"></a>
-    </button>
+    <section>
+        <p>abonnez - vous gratuitement pour découvrir nos nouveaux articles </p>
+        <button>
+            <a href="s'abonner.html"><img src="public/icons/s'abonner.svg"></a>
+        </button>
 
-    <h4 class="header_4">X'plore</h4>
-    <a href="mailto: contact@xplore.com"></a>
-   
-    <p>Pour aller plus loin : </p>
+        <h4 class="header_4">X'plore</h4>
+        <a href="mailto: contact@xplore.com"></a>
+
+        <p>Pour aller plus loin : </p>
         <img src="public/icons/facebook 2.svg" alt="facebook logo">
         <p>Rejoind une communauté de passionné. </p>
         <img src="public/icons/instagram (1) 1.svg" alt="instagram logo">
@@ -98,16 +98,20 @@
         <img src="public/icons/twitter 2.svg" alt="tweeter logo">
         <p>Réagit à toute notre actualité</p>
 
-    <nav>
-        <ul>
-            <li><a href="s'abonner.html"></style></a>Inscrit toi gratuitement </li>
-            <li><a href="autre_projet"></a>Recommandation</li>
-            <li><a href="glossaire.html"></a>Glossaire</li>
-        </ul>
-    </nav>
+        <nav>
+            <ul>
+                <li><a href="s'abonner.html"></style></a>Inscrit toi gratuitement </li>
+                <li><a href="autre_projet"></a>Recommandation</li>
+                <li><a href="glossaire.html"></a>Glossaire</li>
+            </ul>
+        </nav>
+    </section>
+</main>
 
+<footer class="footer">
     <img src="public/icons/MMI_dut_small_white 1.svg" alt="MMI_dut_small_white">
-
     <p>projet réalisé dans le cadre d’un exercice pédagogique au département <mailto : MMi de Montbéliar></mailto></p>
 </footer>
-    </html>
+</body>
+</html>
+

@@ -6,7 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
+    <header class="header">
+        <div class="header_start">
+            <a href="/">
+                <img src="public/icons/X'plore_logo.svg" alt="Logo X'plore class="header_logo">
+            </a>
+        </div>
+
+        <div class="header_end">
+            <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header_menubtn"><img src="public/icons/logo menu.svg" alt=""></button>
+              <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+                <a href="Fr/En.html">Fr/En</a></li>
     
+                <ul>
+                        <li><a href="index.html"><img src="public/icons/home 1.svg" alt=""></a></li>
+                        <li><a href="index.html">home</a></li>
+        
+                        <li><a href="lieu/lieu.html"><img src="public/icons/map-pin (1) 1.svg" alt=""></a></li>
+                        <li><a href="lieu/lieu.html">ISS</a></li>
+        
+                        <li><a href="livre.html"><img src="public/icons/book 2.svg" alt=""></a></li>
+                        <li><a href="livre.html">outsphere</a></li>
+        
+                        <li><a href="musique.html"><img src="public/icons/music 2.svg" alt=""></a></li>
+                        <li><a href="musique.html">Also Pracht...</a></li>
+        
+                        <li><a href="film.html"><img src="public/icons/film 2.svg" alt=""></a></li>
+                        <li><a href="film.html">Wall-E</a></li>
+        
+                        <li><a href="regret.html"><img src="public/icons/user-minus 2.svg" alt=""></a></li>
+                        <li><a href="regret.html">Un sombre avenir</a></li>
+        
+                        <li><a href="espoire.html"><img src="public/icons/user-plus 2.svg" alt=""></a></li>
+                        <li><a href="espoire.html">Vivre sur la lune</a></li>
+        
+                        <li><a href="glossaire.html"><img src="public/icons/search 2.svg" alt=""></a></li>
+                        <li><a href="Glossaire.html">Glossaire</a></li>
+        
+                        <li><a href="a_propos.html"><img src="public/icons/Group 56.svg" alt=""></a></li>
+                        <li><a href="Apropos.html">A propos</a>
+                </ul>
+        </div>
+    </header>  
+    
+<main>
+    <h1>X'plore</h1>
+    <h2>Nos planètes voisines</h2>
+    <h3>Sommes-nous seulS dans l’univers ?</h3>
+    <p>Notre système solaire n’est pas le seul de l’univers. Cette théorie n’est pas nouvelle. Des scientifiques avait déjà émis la théorie de planètes semblables à la nôtre, ailleurs dans l’univers, bien avant les sagas de science-fiction. La première découverte d’une exoplanète date de 1995, baptisé : 51 PEGASIS B.
+        Notre univers ne compte pas moins d’un billion d’exoplanète, dispersées aux quatre coins du cosmos, représentant une infinité de galaxie.        </p>
+</main>
 </body>
 </html>
