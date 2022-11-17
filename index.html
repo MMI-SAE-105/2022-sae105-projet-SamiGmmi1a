@@ -15,111 +15,107 @@
           </a>
     </head>
 
-    <body>
-        <header>
-            <button aria_contol="mainNav" @click="menuIsOpen : ! menuIsOpen" class="header_menubtn"><img src="public/icons/logo menu.svg" alt="menu">
-            </button>
-            <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
-                
-            <a href="Fr/En.html">Fr/En</a></li>
-            
-                <ul>
-                        <li><a href="index.html"><img src="public/icons/home 1.svg" alt=""></a></li>
-                        <li><a href="index.html">home</a></li>
-                        
-                        <li><a href="lieu.html"><img src="public/icons/map-pin (1) 1.svg" alt=""></a></li>
-                        <li><a href="lieu.html">ISS</a></li>
-
-                        <li><a href="livre.html"><img src="public/icons/book 2.svg" alt=""></a></li>
-                        <li><a href="livre.html">outsphere</a></li>
-
-                        <li><a href="musique.html"><img src="public/icons/music 2.svg" alt=""></a></li>
-                        <li><a href="musique.html">Also Pracht...</a></li>
-
-                        <li><a href="film.html"><img src="public/icons/film 2.svg" alt=""></a></li>
-                        <li><a href="film.html">Wall-E</a></li>
-
-                        <li><a href="regret.html"><img src="public/icons/user-minus 2.svg" alt=""></a></li>
-                        <li><a href="regret.html">Un sombre avenir</a></li>
-
-                        <li><a href="espoire.html"><img src="public/icons/user-plus 2.svg" alt=""></a></li>
-                        <li><a href="espoire.html">Vivre sur la lune</a></li>
-
-                        <li><a href="glossaire.html"><img src="public/icons/search 2.svg" alt=""></a></li>
-                        <li><a href="Glossaire.html">Glossaire</a></li>
-
-                        <li><a href="a_propos.html"><img src="public/icons/Group 56.svg" alt=""></a></li>
-                        <li><a href="Apropos.html">A propos</a>
-                </ul>
-            </nav>
-            <button>   
-                <span></span>
-            </button>
+<header>
+    <button aria_contol="mainNav" @click="menuIsOpen : ! menuIsOpen" class="header_menubtn"><img src="public/icons/logo menu.svg" alt="menu">
+    </button>
+    <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
         
-            <a href="/">
-                <img src="public/icons/X'plore logo.svg" alt="logo X'plore">
-            </a>
+    <a href="Fr/En.html">Fr/En</a></li>
+    
+        <ul>
+                <li><a href="index.html"><img src="public/icons/home 1.svg" alt=""></a></li>
+                <li><a href="index.html">home</a></li>
 
-        </header>
+                <li><a href="lieu.html"><img src="public/icons/map-pin (1) 1.svg" alt=""></a></li>
+                <li><a href="lieu.html">ISS</a></li>
 
-        <main>
-            <h1>X'plore</h1>
-            <h2>Bienvenue</h2>
-            <p>Sommes-nous dans une grande période de découverte ? La réponse est OUI. Aujourd’hui, l’univers est au centre de l’attention. Le monde est fasciné par ces nouvelles innovations, en particulier avec les exploits des fusées SpaceX d’Elon Musk, des sondes envoyées vers la lune ou sur mars et par la très célèbre Station Spatiale Internationale ISS. 
-                L’univers est notre désir commun et notre objectif le plus ambitieux. X’plore, vous propose de résumer les enjeux de ces différentes missions spatiales, et de découvrir les possibilités de chaque nouvelle découverte. 
-                Vous trouverez aussi notre sélection des meilleurs œuvres de science-fiction mettant le voyage dans l’espace au cœur de leur récit. 
-                Rêvez grand, et voyez ce futur encore utopique, comme le monde qui nous attend demain.
-                </p>
-            
-        <article>
-            <a href="lieu.html">
-                <h1>l’iss : une avancée spatiale</h1>
-                <img src="public/img/accueil/iss.webp" alt="iss">
-                <a href="lieu.html"><img src="public/icons/button.svg.svg"></a>
-            </a>
-        </article>
+                <li><a href="livre.html"><img src="public/icons/book 2.svg" alt=""></a></li>
+                <li><a href="livre.html">outsphere</a></li>
 
-        <article>
-            <a href="livre.html">
-                <h1>nos planètes voisines</h1>
-                <img src="public/img/accueil/outsphere.webp" alt="outsphere">
-                <a href="livre.html"><img src="public/icons/button.svg.svg"></a>
-            </a>
-        </article>
+                <li><a href="musique.html"><img src="public/icons/music 2.svg" alt=""></a></li>
+                <li><a href="musique.html">Also Pracht...</a></li>
 
-        <article>
-            <a href="musique.html">
-                <h1>ALSO SPRACHT ZARATUSTRA</h1>
-                <img src="public/img/accueil/also pracht zaratoustra.webp" alt="asloprachtzarathoustra">
-                <a href="musique.html"><img src="public/icons/button.svg.svg"></a>
-            </a>
-        </article>
+                <li><a href="film.html"><img src="public/icons/film 2.svg" alt=""></a></li>
+                <li><a href="film.html">Wall-E</a></li>
 
-        <article>
-            <a href="film.html.">
-                <h1>Wall-E</h1>
-            <img src="public/img/accueil/wall-e.webp" alt="Wall-E">
-                <a href="film.html"><img src="public/icons/button.svg.svg"></a>
-            </a>
-        </article>
+                <li><a href="regret.html"><img src="public/icons/user-minus 2.svg" alt=""></a></li>
+                <li><a href="regret.html">Un sombre avenir</a></li>
 
-        <article>
-            <a href="regret.html">
-                <h1>Et si l’espèce humaine disparaissait…</h1>
-                <img src="public/img/accueil/rectangle.webp" alt="regret">
-                <a href="regret.html"><img src="public/icons/button.svg.svg"></a>
-            </a>
-        </article>
-            
-        <article>
-            <a href="espoire.html">
-                <h1>Comment vivre sur la lune ?</h1>
-                <img src="public/img/accueil/lune.webp" alt="espoir">   
-                <a href="espoire.html"><img src="public/icons/button.svg.svg"></a>
-            </a>
-        </article>
-        </main>
-    </body>
+                <li><a href="espoire.html"><img src="public/icons/user-plus 2.svg" alt=""></a></li>
+                <li><a href="espoire.html">Vivre sur la lune</a></li>
+
+                <li><a href="glossaire.html"><img src="public/icons/search 2.svg" alt=""></a></li>
+                <li><a href="Glossaire.html">Glossaire</a></li>
+
+                <li><a href="a_propos.html"><img src="public/icons/Group 56.svg" alt=""></a></li>
+                <li><a href="Apropos.html">A propos</a>
+        </ul>
+    </nav>
+
+    <a href="/">
+        <img src="public/icons/X'plore logo.svg" alt="logo X'plore">
+    </a>
+</header>
+
+<body>
+    <main>
+        <h1 class="header_1">X'plore</h1>
+        <h2 class="header_2">Bienvenue</h2>
+        <p>Sommes-nous dans une grande période de découverte ? La réponse est OUI. Aujourd’hui, l’univers est au centre de l’attention. Le monde est fasciné par ces nouvelles innovations, en particulier avec les exploits des fusées SpaceX d’Elon Musk, des sondes envoyées vers la lune ou sur mars et par la très célèbre Station Spatiale Internationale ISS. 
+            L’univers est notre désir commun et notre objectif le plus ambitieux. X’plore, vous propose de résumer les enjeux de ces différentes missions spatiales, et de découvrir les possibilités de chaque nouvelle découverte. 
+            Vous trouverez aussi notre sélection des meilleurs œuvres de science-fiction mettant le voyage dans l’espace au cœur de leur récit. 
+            Rêvez grand, et voyez ce futur encore utopique, comme le monde qui nous attend demain.
+            </p>
+        
+    <article>
+        <a href="lieu.html">
+            <h5 class="header_5">l’iss : une avancée spatiale</h5>
+            <img src="public/img/accueil/iss.webp" alt="iss">
+            <a href="lieu.html"><img src="public/icons/button.svg.svg"></a>
+        </a>
+    </article>
+
+    <article>
+        <a href="livre.html">
+            <h5 class="header_5">nos planètes voisines</h5>
+            <img src="public/img/accueil/outsphere.webp" alt="outsphere">
+            <a href="livre.html"><img src="public/icons/button.svg.svg"></a>
+        </a>
+    </article>
+
+    <article>
+        <a href="musique.html">
+            <h5 class="header_5">ALSO SPRACHT ZARATUSTRA</h5>
+            <img src="public/img/accueil/also pracht zaratoustra.webp" alt="asloprachtzarathoustra">
+            <a href="musique.html"><img src="public/icons/button.svg.svg"></a>
+        </a>
+    </article>
+
+    <article>
+        <a href="film.html.">
+            <h1>Wall-E</h1>
+        <img src="public/img/accueil/wall-e.webp" alt="Wall-E">
+            <a href="film.html"><img src="public/icons/button.svg.svg"></a>
+        </a>
+    </article>
+
+    <article>
+        <a href="regret.html">
+            <h5 class="header_5">Et si l’espèce humaine disparaissait…</h5>
+            <img src="public/img/accueil/rectangle.webp" alt="regret">
+            <a href="regret.html"><img src="public/icons/button.svg.svg"></a>
+        </a>
+    </article>
+        
+    <article>
+        <a href="espoire.html">
+            <h5 class="header_5">Comment vivre sur la lune ?</h5>
+            <img src="public/img/accueil/lune.webp" alt="espoir">   
+            <a href="espoire.html"><img src="public/icons/button.svg.svg"></a>
+        </a>
+    </article>
+    </main>
+</body>
 
     <footer>
         <p>abonnez - vous gratuitement pour découvrir nos nouveaux articles </p>
@@ -128,7 +124,7 @@
             <a href="s'abonner.html"><img src="public/icons/s'abonner.svg"></a>
         </button>
 
-        <h1>X'plore</h1>
+        <h4 class="header_4">X'plore</h4>
         <a href="mailto: contact@xplore.com"></a>
        
         <p>Pour aller plus loin : </p>
