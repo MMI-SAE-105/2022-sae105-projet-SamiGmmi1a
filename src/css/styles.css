@@ -62,7 +62,13 @@ button {
     padding: 10px 25px;
     color: #ffffff;
     border: 2px solid #ffffff;
+    display: block;
+    width: max-content;
+    border-radius: 0.7rem;
+}
 
+.heading-5 {
+    color: #ffffff;
 }
 
 section {
