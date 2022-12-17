@@ -1,0 +1,94 @@
+.text {
+    
+}
+
+.overlay {
+    /* Sit on top of the page content */
+    position: fixed;
+    /* Full width (cover the whole page) 
+    width: 100vw;
+    /* Full height (cover the whole page) 
+    height: 100vw;
+    /*Stay at the top */
+    top: 0;
+    /* Stay at the left */
+    left: 0;
+    /* Stay at the right */
+    right: 0;
+    /* Stay at the bottom */
+    bottom: 0;
+    /* Black background with opacity */
+    background-color: rgba(0,0,0,.8);
+    /* Add a pointer on hover */
+    cursor: pointer;
+    /* Use a grid for easy centering */
+    display: grid;
+    /* Center vertically and horizontally */
+    -content: center;
+    z-index: 100;
+    overflow-y: hidden
+}
+.overlay::after {
+    font-weight: bold;
+    /* Add content : "X" */
+    content: "X";
+    /* White text color */
+    color: #fff;
+    /* Black background color */
+    background-color: #000;
+    /* Font family "sans-serif" */
+    font-family: sans-serif;
+    /* Centered text */
+    text-align: center;
+    /* Line height ( idem height ) */
+    line-height: 5rem;
+    /* Display as a block */
+    display: block;
+    /* Position absolute */
+    position: absolute;
+    /* 1rem from the top */
+    top: 3rem;
+    /* 1rem from the right */
+    right: 3rem;
+    /* 2rem width */
+    width: 2rem;
+    /* 2rem height */
+    height: 2rem;
+    /* White border of 2px */
+    border: solid 2px #fff;
+    /* Rounded border */
+    border-radius: 25px;
+    z-index: 100px;
+}
+
+.overlay>figure {
+    background-color: #00000000;
+    /* 1rem padding */
+    padding: 1rem;
+
+}
+
+.toto {
+    border-left: 3px solid white;
+}
+
+.frise {
+    width: 180px;
+    height: 90px;
+    z-index: 100px;
+    display: block;
+    margin-left: 40%;
+    margin-bottom: 80px;
+     overflow: hidden;
+}
+
+.img {
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.legende {
+    color: #fff;
+    font-size: 8px;
+    text-align: center;
+}   
