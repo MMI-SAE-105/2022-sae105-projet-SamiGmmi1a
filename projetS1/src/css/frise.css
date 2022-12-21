@@ -5,10 +5,10 @@
 .overlay {
     /* Sit on top of the page content */
     position: fixed;
-    /* Full width (cover the whole page) 
-    width: 100vw;
-    /* Full height (cover the whole page) 
-    height: 100vw;
+    /* Full width (cover the whole page)*/
+    width: 100%;
+    /* Full height (cover the whole page)*/
+    height: 100%;
     /*Stay at the top */
     top: 0;
     /* Stay at the left */
@@ -19,14 +19,12 @@
     bottom: 0;
     /* Black background with opacity */
     background-color: rgba(0,0,0,.8);
-    /* Add a pointer on hover */
-    cursor: pointer;
     /* Use a grid for easy centering */
     display: grid;
     /* Center vertically and horizontally */
-    -content: center;
     z-index: 100;
     overflow-y: hidden
+    
 }
 .overlay::after {
     font-weight: bold;
@@ -91,4 +89,8 @@
     color: #fff;
     font-size: 8px;
     text-align: center;
-}   
+}  
+
+.miniature {
+    
+}

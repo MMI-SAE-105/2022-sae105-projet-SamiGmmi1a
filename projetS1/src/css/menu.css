@@ -46,7 +46,8 @@
 /*menu*/
 
 .menu {
-    background-color: black;
+    color: #000000;
+    background: linear-gradient(to right, #000000 60%, #00000000);    
     position: fixed;
     top: 0;
     left: 0;

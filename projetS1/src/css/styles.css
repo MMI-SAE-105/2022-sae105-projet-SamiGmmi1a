@@ -79,6 +79,27 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+blockquote {
+    color: white;
+    margin: 5px;
+    margin: auto;
+    display: block; 
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    line-height: 25px;
+    font-style: italic;
+}
+
+.kennedy {
+    color: white;
+    margin: auto;
+    display: block; 
+    margin-bottom: 60px;
+    margin-left: 60%;
+}
+
 .heading-5 {
     position: absolute;
     color: white;
@@ -86,9 +107,9 @@ body {
     font-size: 24px;
     margin-left: 2rem;
     z-index: 1;
-    left: 35px;
-    margin-top: 10px;
-    width: 300px;
+    left: 20px;
+    margin-top: 15px;
+    width: 250px;
 }
 
 .heading-5 .big {
@@ -138,8 +159,7 @@ body {
 .footer {
     background-color: #00000000;
     background-image: linear-gradient(#11101600, #000000);
-    width: 100%;
-    
+    width: 100%;        
 }
 
 .text-follow {
@@ -188,7 +208,7 @@ body {
     padding: 10px 25px;
     border-radius: 0.7rem;
     float: right;
-    margin-right: 30px;
+    margin-right: 15px;
     margin-top: -55px;
 }
 
@@ -207,7 +227,7 @@ body {
     display: flex;
     margin-top: 30px;
     justify-content: center;
-    margin-left: 30px;
+    margin-left: 50px;
     left: 15px;
 } 
 
@@ -251,15 +271,15 @@ p {
 
 
 .logo-mmi {
-    width: 20%;
-    right: 20px;
+    width: 15%;
+    right: 30px;
     position: absolute;
-    margin-top: -30px;
+    margin-top: -20px;
     margin-right: 10px;
 }
 
 .mmimontbeliard {
-    width: 250px;
+    width: 230px;
     margin-bottom: 20px;
 }
 
