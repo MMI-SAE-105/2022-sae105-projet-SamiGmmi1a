@@ -21,6 +21,7 @@
     flex: 1 0 250px;
     margin-left: 1rem;
     scroll-snap-align: start;
+    list-style: none;
 }
 
 ::-webkit-scrollbar-track {
@@ -39,4 +40,7 @@
 
 .card-title {
     color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 30px;
 }
