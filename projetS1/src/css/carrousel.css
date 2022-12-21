@@ -1,3 +1,10 @@
+.carousel {
+    background-color: #fff;
+    width: 370px;
+    height: 190px;
+    margin-bottom: 100px;
+}
+
 .carousel-items {
     display: flex;
     overflow-x: scroll;
@@ -8,6 +15,25 @@
 .carousel-item {
     flex: 1 0 250px;
     margin-left: 1rem;
+}
+
+.carousel-img {
+    width: 320px;
+    height: 180px;
+    z-index: 0;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: -5px;
+}
+
+.carousel-img-kenobi {
+    width: 320px;
+    height: 180px;
+    z-index: 0;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: -5px;
+    margin-right: 50px;
 }
 
 .carousel-items {
