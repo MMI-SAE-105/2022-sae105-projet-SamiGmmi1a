@@ -58,12 +58,13 @@
     padding: 5px 12px;
     color: #ffffff;
     border: 2px solid #ffffff;
-    width: max-content;
+    width: 150px;
     border-radius: 0.7rem;
     z-index: 2;
     font-weight: bold;
-    right: 125px;
+    right: 113px;
     margin-top: -80px;
+    text-align: center;
 }
 
 
