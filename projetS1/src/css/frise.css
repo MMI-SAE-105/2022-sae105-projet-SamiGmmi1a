@@ -9,10 +9,9 @@
 
 
 .timeline{
-    width: 50px;
+    width: 100%;
     height: 2023px;
     mix-blend-mode: normal;
-    border-radius: 10px;
     display: block;
 }
   
@@ -26,6 +25,7 @@
       
 .lines {
         margin-left: 50px;
+        margin-top: -15px;
 }        
         
 .dot{
@@ -36,22 +36,36 @@
 }
         
 .line{
-    height: 161px;
+    height: 140px;
     width:2px;
     background: #fff;
     margin-left: 6.5px;
 }
 
-.cards{
-    margin-left:12px;
-    transform:translateY(-50px);
-}
 
 .frise-image {
+    margin-left:12px;
     height: 90px;
     width: 180px;
     margin-bottom: 80px;
+    margin-top: -20px;
 }
+
+.btn-frise {
+    display: block;
+    position: absolute;
+    padding: 5px 12px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    width: max-content;
+    border-radius: 0.7rem;
+    z-index: 2;
+    font-weight: bold;
+    right: 125px;
+    margin-top: -80px;
+}
+
+
 /*
 h4 {
     font-family: Open, sans-serif;
