@@ -176,15 +176,11 @@ h3 {
 .video {
     width: 320px;
     height: 180px;
-    padding: none;
     z-index: 0;
     margin: auto;
     display: block;
     margin-top: 50px;
     margin-bottom: 50px;
-    max-width: 100%;
-    border: 2px solid #ffffff;
-    border-radius: 1.5rem;
 }
 
 /*footer*/
