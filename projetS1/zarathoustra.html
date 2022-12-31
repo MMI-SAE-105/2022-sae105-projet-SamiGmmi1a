@@ -5,82 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>X'plore</title>
-
-    <link rel="stylesheet" href="/src/css/styles.css">
-  </head>
-  <body>
-    <header>
-      <a href="/">
-        <img src="" alt="">
-      </a>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+</style>
+    <link rel="stylesheet" href="src/css/menu.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/normalize.css">
+    <link rel="stylesheet" href="src/css/typography.css">
 </head>
 
-<body>
-<header class="header">
-    <div class="header_start">
-        <a href="/">
-            <img src="/public/icons/X'plore_logo.svg" alt="Logo X'plore class="header_logo">
-        </a>
-    </div>
-
-    <div class="header_end">
-        <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header_menubtn"><img src="/public/icons/logo menu.svg" alt=""></button>
-          <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
-            <a href="Fr/En.html">Fr/En</a></li>
-
-            <ul>
-                    <li><a href="index.html"><img src="/public/icons/home 1.svg" alt=""></a></li>
-                    <li><a href="index.html">home</a></li>
-    
-                    <li><a href="ISS.html"><img src="/public/icons/map-pin (1) 1.svg" alt=""></a></li>
-                    <li><a href="ISS.html">ISS</a></li>
-    
-                    <li><a href="exoplanete.html"><img src="/public/icons/book 2.svg" alt=""></a></li>
-                    <li><a href="exoplanete.html">outsphere</a></li>
-    
-                    <li><a href="zarathoustra.html"><img src="/public/icons/music 2.svg" alt=""></a></li>
-                    <li><a href="zarathoustra.html">Also Pracht...</a></li>
-    
-                    <li><a href="wall-e.html"><img src="/public/icons/film 2.svg" alt=""></a></li>
-                    <li><a href="wall-e.html">Wall-E</a></li>
-    
-                    <li><a href="regret.html"><img src="/public/icons/user-minus 2.svg" alt=""></a></li>
-                    <li><a href="regret.html">Un sombre avenir</a></li>
-    
-                    <li><a href="espoire.html"><img src="/public/icons/user-plus 2.svg" alt=""></a></li>
-                    <li><a href="espoire.html">Vivre sur la lune</a></li>
-    
-                    <li><a href="glossaire.html"><img src="/public/icons/search 2.svg" alt=""></a></li>
-                    <li><a href="Glossaire.html">Glossaire</a></li>
-    
-                    <li><a href="a_propos.html"><img src="/public/icons/Group 56.svg" alt=""></a></li>
-                    <li><a href="a_propos.html">A propos</a>
+<body>  
+    <header class="header">
+        <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open') ">
+            <div class="nav-toggle-bar"></div>
+        </div>
+        <nav class="menu">
+            <ul class="icone-menu">
+                <li><a href="Fr/En.html">Fr/En</a></li>
+                <li><a href="index.html"><img src="public/icons/home_1.svg" alt="home">home</a></li>
+                <li><a href="ISS.html"><img src="public/icons/map-pin_(1)_1.svg" alt="lieu">L'ISS</a></li>
+                <li><a href="exoplanete.html"><img src="public/icons/book_2.svg" alt="book">Outspehere</a></li>
+                <li><a href="zarathoustra.html"><img src="public/icons/music_2.svg" alt="musique">Also Sprach Zarathustra</a></li>
+                <li><a href="wall-e.html"><img src="public/icons/film_2.svg" alt="film">Wall-e</a></li>
+                <li><a href="regret.html"><img src="public/icons/user-minus_2.svg" alt="regret">Un sombre avenir</a></li>
+                <li><a href="espoire.html"><img src="public/icons/user-plus_2.svg" alt="espoir">Vivre sur la lune</a></li>
+                <li><a href="glossaire.html"><img src="public/icons/search_2.svg" alt="glossaire">Glossaire</a></li>
+                <li><a href="a-propos.html"><img src="public/icons/Group_56.svg" alt="a_propos">A propos</a></li>
             </ul>
-    </div>
-</header>   
+        </nav>
 
-<main>
+        <span class="logo"><img src="public/icons/X'plore_logo.svg" alt="logo X'plore"></span>
+</header>  
+
+<main class="contenu">
+
+        <h1 class="xplore">X'plore</h1>
+        <h2 class="titre">ALSO SPRACHT ZARATUSTRA </h2>
+
+<hr class="separation-haut">
+
+
+        <h3 class="sous-titre">Le lever du soleil</h3>
+        <div class="text">« Also Stprach Zarathustra » un nom qui semble inconnu mais dont le thème est reconnaissable parmi toutes les grandes musiques de film. Assimilé à la musique d'ouverture du film « 2001, l'Odyssée de l'Espace » ou pour un des génériques des « Simpson », trois mots peuvent décrire cette musique incontournable « évolution, grandiose, univers »</div>
+        <div class="text">Aujourd'hui, X'plore vous propose d'en apprendre plus sur une œuvre qui reste gravé dans nos mémoires comme l'hymne de notre évolution.</>
+       
+<video class="video" controls width="500">
+    <source src="Also Sprach Zarathustra, Op. 30 - Strauss (1).mp4"
+    type="video/mp4">
+
+
     <div>
-        <h1>X'plore</h1>
-        <h2>ALSO SPRACHT ZARATUSTRA </h2>
-
-<hr>
-
-        <h3>Le lever du soleil</h3>
-        <p>« Also Stprach Zarathustra » un nom qui semble inconnu mais dont le thème est reconnaissable parmi toutes les grandes musiques de film. Assimilé à la musique d’ouverture du film « 2001, l’Odyssée de l’Espace » ou pour un des génériques des « Simpson », trois mots peuvent décrire cette musique incontournable « évolution, grandiose, univers »</p>
-        <p>Aujourd’hui, X’plore vous propose d’en apprendre plus sur une œuvre qui reste gravé dans nos mémoires comme l’hymne de notre évolution.</p>
-        <video controls width="500">
-            <source src="Also Sprach Zarathustra, Op. 30 - Strauss (1).mp4"
-            type="video/mp4">
-    </div>
-
-    <div>
-        <h3>D’où provient cette musique ?</h3>
-        <p>"Also Spratch Zarathustra" en anglais "Ainsi parlait Zarathustra" a été composé en 1896 par Richard Strauss, en hommage au philosophe allemand Friedrich Nietzsche, pour son livre du même titre, sur les exploits de l'évolution de l'Homme.</p>
-        <p>« Lever du Soleil », celui que nous connaissons, n’est que l’introduction parmi neuf parties au total.</p>
-        <p>Signifiant le début du parcours évolutif de l’homme, du statut  primitif au bipède que nous sommes actuellement.</p>
-        <p>Strauss voulu retranscrire à travers son œuvre, l’évolution progressive de l’homme étape par étape.</p>
-        <p>Cette œuvre est devenue si importante du fait qu’elle représente tous les efforts que l’Homme a fournis pour toujours repousser les limites de son espèce. Aujourd’hui, notre plus grande ambition est de voyager et de découvrir l’univers au-delà de notre système solaire.</p>
+        <h3 class="sous-titre">D'où provient cette musique ?</h3>
+        <div class="text">"Also Spratch Zarathustra" en anglais "Ainsi parlait Zarathustra" a été composé en 1896 par Richard Strauss, en hommage au philosophe allemand Friedrich Nietzsche, pour son livre du même titre, sur les exploits de l'évolution de l'Homme.</div>
+        <div class="text">« Lever du Soleil », celui que nous connaissons, n'est que l'introduction parmi neuf parties au total.</div>
+        <div class="text">Signifiant le début du parcours évolutif de l'homme, du statut  primitif au bipède que nous sommes actuellement.</div>
+        <div class="text">Strauss voulu retranscrire à travers son œuvre, l'évolution progressive de l'homme étape par étape.</div>
+        <div class="text">Cette œuvre est devenue si importante du fait qu'elle représente tous les efforts que l'Homme a fournis pour toujours repousser les limites de son espèce. Aujourd'hui, notre plus grande ambition est de voyager et de découvrir l'univers au-delà de notre système solaire.</div>
     
         <article>
             <a href="evolution.html">

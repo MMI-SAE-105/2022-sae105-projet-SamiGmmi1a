@@ -73,7 +73,7 @@ body {
     margin: auto;
     display: block; 
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     margin-left: 20px;
     margin-right: 20px; 
     line-height: 25px;
@@ -133,7 +133,6 @@ h3 {
     margin: auto;
     display: block;
     margin-bottom: 50px;
-    max-width: 100%;
 }
 
 .btn {
@@ -172,6 +171,20 @@ h3 {
     line-height: 25px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+}
+
+.video {
+    width: 320px;
+    height: 180px;
+    padding: none;
+    z-index: 0;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 100%;
+    border: 2px solid #ffffff;
+    border-radius: 1.5rem;
 }
 
 /*footer*/
