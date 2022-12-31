@@ -52,6 +52,7 @@
     margin-top: -20px;
 }
 
+
 .btn-frise {
     display: block;
     position: absolute;
@@ -65,29 +66,56 @@
     right: 113px;
     margin-top: -80px;
     text-align: center;
+
 }
 
+/*overlay*/
 
-/*
-h4 {
-    font-family: Open, sans-serif;
-    font-style: normal;
+
+.overlay{
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+    background-color: #000;
+    opacity: 0.9;
+    z-index: 1000;
+    transition: 0.5s ease-in-out;
+    overflow:hidden;
+}
+
+.frise_title {
+    color: #fff;
+    margin-top: 30%;
+    margin-bottom: -20px;
+    margin-left: 10%;
+}
+
+.overlay:target{
+    display: block;
+}
+
+.texte {
+    color: white;   
+    position: absolute;
+    width: 80%;
+    margin-left: 12%;
+    margin-right: 15%;
+    margin-top: 10%;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;    
+}
+
+.overlay a{
     font-weight: bold;
-    font-size: 14px;
-    line-height: 19px;
-    margin-left:25px;
-    margin-bottom:5px;
-    color: #2B2862;
+    font-size: 30px;
+    color: #fff;
+    font-family: sans-serif;
+    display: block;
+    line-height: 0.5rem;
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+    height: 100%;
+    width: 100%;
 }
-
-/*
-p{
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-    color: red;
-    margin-left:25px;
-}
-    

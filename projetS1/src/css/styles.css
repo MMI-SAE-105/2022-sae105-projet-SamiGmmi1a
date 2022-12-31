@@ -23,7 +23,7 @@
     right:30px;
     top: 15px;
 }
- 
+
 body {
     background-color: #111016;   
 }
@@ -53,6 +53,7 @@ body {
 .contenu .sous-titre {
     color: white;
     text-align: center;
+    margin: auto;
     margin-bottom: 50px;
 }
 
@@ -101,6 +102,10 @@ blockquote {
     margin-left: 60%;
 }
 
+h3 {
+    width: 250px;
+}
+
 .heading-5 {
     position: absolute;
     color: white;
@@ -127,7 +132,7 @@ blockquote {
     z-index: 0;
     margin: auto;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     max-width: 100%;
 }
 
@@ -143,7 +148,7 @@ blockquote {
     z-index: 2;
     font-weight: bold;
     left: 40px;
-    margin-top: -65px;
+    margin-top: -111px;
 }
 
 .separation-bas {
