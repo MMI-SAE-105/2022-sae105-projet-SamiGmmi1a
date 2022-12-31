@@ -115,7 +115,7 @@ h3 {
     z-index: 1;
     left: 20px;
     margin-top: 15px;
-    width: 250px;
+    width: 300px;
 }
 
 .heading-5 .big {
@@ -148,7 +148,7 @@ h3 {
     z-index: 2;
     font-weight: bold;
     left: 40px;
-    margin-top: -111px;
+    margin-top:-110px;
 }
 
 .separation-bas {
@@ -158,6 +158,20 @@ h3 {
     width: 300px;
     height: 3px;
     background-color: white;
+}
+
+.liste {
+    color: white;
+    margin: 5px;
+    margin: auto;
+    display: block; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
 /*footer*/
