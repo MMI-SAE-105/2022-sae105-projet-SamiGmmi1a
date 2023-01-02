@@ -5,65 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>X'plore</title>
-
-    <link rel="stylesheet" href="/src/css/styles.css">
-  </head>
-  <body>
-    <header>
-      <a href="/">
-
-        <img src="" alt="">
-      </a>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+</style>
+    <link rel="stylesheet" href="src/css/menu.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/normalize.css">
+    <link rel="stylesheet" href="src/css/typography.css">
 </head>
 
-<body>
-<header class="header">
-    <div class="header_start">
-        <a href="/">
-            <img src="/public/icons/X'plore_logo.svg" alt="Logo X'plore class="header_logo">
-        </a>
-    </div>
-
-    <div class="header_end">
-        <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header_menubtn"><img src="/public/icons/logo menu.svg" alt=""></button>
-          <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
-            <a href="Fr/En.html">Fr/En</a></li>
-
-            <ul>
-                    <li><a href="index.html"><img src="/public/icons/home 1.svg" alt=""></a></li>
-                    <li><a href="index.html">home</a></li>
-    
-                    <li><a href="ISS.html"><img src="/public/icons/map-pin (1) 1.svg" alt=""></a></li>
-                    <li><a href="ISS.html">ISS</a></li>
-    
-                    <li><a href="exoplanete.html"><img src="/public/icons/book 2.svg" alt=""></a></li>
-                    <li><a href="exoplanete.html">outsphere</a></li>
-    
-                    <li><a href="zarathoustra.html"><img src="/public/icons/music 2.svg" alt=""></a></li>
-                    <li><a href="zarathoustra.html">Also Pracht...</a></li>
-    
-                    <li><a href="wall-e.html"><img src="/public/icons/film 2.svg" alt=""></a></li>
-                    <li><a href="wall-e.html">Wall-E</a></li>
-    
-                    <li><a href="regret.html"><img src="/public/icons/user-minus 2.svg" alt=""></a></li>
-                    <li><a href="regret.html">Un sombre avenir</a></li>
-    
-                    <li><a href="espoire.html"><img src="/public/icons/user-plus 2.svg" alt=""></a></li>
-                    <li><a href="espoire.html">Vivre sur la lune</a></li>
-    
-                    <li><a href="glossaire.html"><img src="/public/icons/search 2.svg" alt=""></a></li>
-                    <li><a href="Glossaire.html">Glossaire</a></li>
-    
-                    <li><a href="a_propos.html"><img src="/public/icons/Group 56.svg" alt=""></a></li>
-                    <li><a href="a_propos.html">A propos</a>
+<body>  
+    <header class="header">
+        <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open') ">
+            <div class="nav-toggle-bar"></div>
+        </div>
+        <nav class="menu">
+            <ul class="icone-menu">
+                <li><a href="Fr/En.html">Fr/En</a></li>
+                <li><a href="index.html"><img src="public/icons/home_1.svg" alt="home">home</a></li>
+                <li><a href="ISS.html"><img src="public/icons/map-pin_(1)_1.svg" alt="lieu">L'ISS</a></li>
+                <li><a href="exoplanete.html"><img src="public/icons/book_2.svg" alt="book">Outspehere</a></li>
+                <li><a href="zarathoustra.html"><img src="public/icons/music_2.svg" alt="musique">Also Sprach Zarathustra</a></li>
+                <li><a href="wall-e.html"><img src="public/icons/film_2.svg" alt="film">Wall-e</a></li>
+                <li><a href="regret.html"><img src="public/icons/user-minus_2.svg" alt="regret">Un sombre avenir</a></li>
+                <li><a href="espoire.html"><img src="public/icons/user-plus_2.svg" alt="espoir">Vivre sur la lune</a></li>
+                <li><a href="glossaire.html"><img src="public/icons/search_2.svg" alt="glossaire">Glossaire</a></li>
+                <li><a href="a-propos.html"><img src="public/icons/Group_56.svg" alt="a_propos">A propos</a></li>
             </ul>
-    </div>
+        </nav>
+
+        <span class="logo"><img src="public/icons/X'plore_logo.svg" alt="logo X'plore"></span>
 </header>
 
-<main>
-    <section>
-        <div>
-            <h1>X’plore</h1>
+<main class="contenu">
+
+    <h1 class="xplore">X'plore</h1>
+    <h2 class="titre">Bienvenue</h2>
+
+<hr class="separation-haut">
             <h2>A propos</h2>
             <hr>
         </div>
@@ -107,7 +86,7 @@
         <nav>
             <ul>
                 <li><a href="s'abonner.html">Inscrit toi gratuitement</a></li>
-                <li><a href="projet.html">Ces projets peuvent vous intéresser</a></li>
+                <li><a href="projet.html">Ces projets pourraient vous intéresser</a></li>
                 <li><a href="glossaire.html">Glossaire</a></li>
             </ul>
         </nav>
