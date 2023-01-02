@@ -1,15 +1,37 @@
-.newsletter {
-    
-} 
 
-.titre {
-    font-size: 13px;
-    color: ;
+input {
+    border: none;
+    background-color: #00000000;
+}
+
+
+
+.inscription {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 90%;
+    margin-left: -1.5rem;
+    margin-left: 2rem;
+}
+
+
+.ligne {
+    width: 300px;
 }
 
 .button {
-    position: absolute;
+    color: #fff;
+    display: block;
     margin: auto;
-    height: 100px;
-}
+    margin-top: 40px;
+    margin-bottom: 100px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid #ffffff;
+    padding: 10px 15px;
+    border-radius: 0.7rem;
 
+
+}

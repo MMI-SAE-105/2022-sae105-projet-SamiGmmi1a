@@ -204,6 +204,7 @@ h3 {
     border-radius: 2.5rem;
     z-index: 2;
     margin-top: 30px;
+    line-height: 40px;
 }
 
 .big_logo {
@@ -212,6 +213,17 @@ h3 {
     position: sticky;
     height: 150px;
     width: 160px;
+}
+
+figcaption {
+    font-size: 12px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -45px;
+    text-align: right;
+    margin-right: 3rem;
+    margin-bottom: 50px;
+
 }
 /*footer*/
 
@@ -241,7 +253,7 @@ h3 {
     border: 2px solid #ffffff;
     display: block;
     width: max-content;
-    border-radius: 0.7rem;
+    border-radius: 2rem;
     z-index: 2;
     font-weight: bold;
 }
@@ -250,7 +262,7 @@ h3 {
     color: white;
     font-weight: bold;
     font-size: 24px;
-    margin-left: 1rem;
+    margin-left: 5px;
     z-index: 1;
     margin-bottom: -5px;
 
@@ -258,16 +270,16 @@ h3 {
 
 .mail-to {
     font-size: 12px;
-    margin-left: 1rem;
+    margin-left: 5px;
 }
 
 .btn-index {
     color: #ffffff;
     border: 2px solid #ffffff;
     padding: 10px 25px;
-    border-radius: 0.7rem;
+    border-radius: 1.5rem;
+    margin: 10px;
     float: right;
-    margin-right: 15px;
     margin-top: -55px;
 }
 
