@@ -206,7 +206,13 @@ h3 {
     margin-top: 30px;
 }
 
-
+.big_logo {
+    display: block;
+    margin: auto;
+    position: sticky;
+    height: 150px;
+    width: 160px;
+}
 /*footer*/
 
 .footer {
