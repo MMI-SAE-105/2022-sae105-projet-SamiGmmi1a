@@ -32,6 +32,11 @@ input {
     border: 2px solid #ffffff;
     padding: 10px 15px;
     border-radius: 0.7rem;
+}
 
-
+.zone {
+    color: #fff;
+    margin-left: 10px;
+    width: 200px;
+    text-transform: capitalize;
 }

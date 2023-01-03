@@ -13,7 +13,7 @@
     height: 2023px;
     mix-blend-mode: normal;
     display: block;
-    margin-bottom: -170px;
+    margin-bottom: -60px;
 }
   
 
@@ -66,7 +66,6 @@
     right: 113px;
     margin-top: -80px;
     text-align: center;
-
 }
 
 /*overlay*/
@@ -118,4 +117,5 @@
     left: 4rem;
     height: 100%;
     width: 100%;
+    z-index: 100;
 }
