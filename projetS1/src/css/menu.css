@@ -71,7 +71,9 @@
 }
 
 .menu-open,
-.menu-open body {
+.menu-open body,
+.frise-open,
+.frise-open body {
     overflow: hidden;
 }
 
