@@ -45,6 +45,11 @@
 
 /*menu*/
 
+.icone-menu {
+    margin-right: 20px;
+    margin-bottom: -7px;
+}
+
 .menu {
     color: #000000;
     background: linear-gradient(to right, #000000 60%, #00000000);    
