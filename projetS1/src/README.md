@@ -1,7 +1,7 @@
 - NOM : GHORZI
 - PRÉNOM : Sami
-- URL du site :
-- URL FIGMA :
+- URL du site : 
+- URL FIGMA : 
 
 # Structure de départ pour le projet individuel.
 
