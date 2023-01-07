@@ -316,9 +316,10 @@ figcaption {
     color: white;
     font-weight: bold;
     font-size: 13px;
-    margin-left: 2rem;
-    margin-top: 50px;
+    margin-left: 10px;
+    margin-top: 30px;
     z-index: 1;
+    font-family: Arial, Helvetica, sans-serif   ;
 }
 
 .reseau {
