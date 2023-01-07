@@ -186,6 +186,24 @@ h3 {
     font-size: 16px;
 }
 
+.exoliste {
+    color: white;
+    margin: 5px;
+    margin: auto;
+    display: block; 
+    margin-top: 10px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.exoliste .liste {
+    margin-bottom: 15px;
+}
+
 .video {
     width: 320px;
     height: 180px;
