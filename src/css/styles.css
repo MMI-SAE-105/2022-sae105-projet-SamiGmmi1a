@@ -393,11 +393,11 @@ p {
 
 
 .logo-mmi {
-    width: 15%;
-    right: 30px;
+    width: 50px;
+    right: 40px;
     position: absolute;
-    margin-top: -20px;
-    margin-right: -15px;
+    margin-top: -10px;
+    margin-right: -20px;
 }
 
 .mmimontbeliard {
