@@ -1,0 +1,17 @@
+@import url(https://fonts.google.com/?query=roboto);
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family:'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    margin: 0 ;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

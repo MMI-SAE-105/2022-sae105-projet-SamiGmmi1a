@@ -1,0 +1,388 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: none;
+    padding: 0;
+ }
+
+ /*header*/
+
+ .header {
+    top: 0;
+    position: fixed;
+    z-index: 10;   
+    background: #00000000;
+    background-image: linear-gradient(#000000, #11101600);
+    width: 100%;
+    height: 120px;
+    display: inline;
+    justify-content: space-between;
+}
+
+.logo {
+    position : fixed;
+    right:30px;
+    top: 15px;
+}
+
+body {
+    background-color: #111016;
+}
+
+
+/*corps*/
+
+
+.contenu .xplore {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    border-top: 175px;
+    margin-bottom: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 175px;
+}
+
+.contenu .titre {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.contenu .sous-titre {
+    color: white;
+    text-align: center;
+    width: 280px;
+    margin: auto;
+    margin-bottom: 50px;
+    letter-spacing: 1.5px;
+}
+
+.separation-haut {
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 3px;
+    background-color: white;
+
+}
+
+.text {
+    color: white;
+    margin: 5px;
+    margin: auto;
+    display: block; 
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+blockquote {
+    color: white;
+    margin: 5px;
+    margin: auto;
+    display: block; 
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    line-height: 25px;
+    font-style: italic;
+}
+
+.kennedy {
+    color: white;
+    margin: auto;
+    display: block; 
+    margin-bottom: 60px;
+    margin-left: 60%;
+}
+
+h3 {
+    width: 250px;
+}
+
+.heading-5 {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 2rem;
+    z-index: 1;
+    left: 20px;
+    margin-top: 15px;
+    width: 300px;
+}
+
+.heading-5 .big {
+    text-transform: uppercase;
+}
+
+.sous-titre {
+    margin: 20px;
+    letter-spacing: 5px;
+}
+
+.image {
+    width: 320px;
+    height: 180px;
+    z-index: 0;
+    margin: auto;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.btn {
+    position: absolute;
+    padding: 5px 12px;
+    color: #ffffff;
+    margin-left: 10px;
+    border: 2px solid #ffffff;
+    display: flex;
+    width: max-content;
+    border-radius: 0.7rem;
+    z-index: 2;
+    font-weight: bold;
+    left: 40px;
+    margin-top:-110px;
+}
+
+.separation-bas {
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 3px;
+    background-color: white;
+}
+
+.liste {
+    color: white;
+    margin: 5px;
+    margin: auto;
+    display: block; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.video {
+    width: 320px;
+    height: 180px;
+    z-index: 0;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.btn_projet {
+    margin: auto;
+    padding: 25px 12px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #111016;
+    margin-bottom: 20px;
+    font-size: 30px;
+    border: 3px solid #ffffff;
+    display: block;
+    height: 180px;
+    width: 300px;
+    border-radius: 3rem;
+    z-index: 2;
+    font-weight: bold;
+}
+
+.big_logo {
+    display: block;
+    margin: auto;
+    position: sticky;
+    height: 150px;
+    width: 160px;
+}
+
+figure {
+    margin: auto;
+}
+
+
+
+figcaption {
+    font-size: 12px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -45px;
+    text-align: right;
+    margin-right: 3rem;
+    margin-bottom: 50px;    
+}
+
+.definition {
+    list-style: square;
+    margin-left: 5rem;
+    font-size: 24px;
+    padding-top: 20px; 
+    line-height: 50px;
+}
+
+.definition li {
+    color: #fff;
+}
+
+
+
+/*footer*/
+
+.footer {
+    background-color: #00000000;
+    background-image: linear-gradient(#11101600, #000000);
+    width: 100%;    
+    padding-bottom: 50px;
+}
+
+.text-follow {
+    color: white;
+    margin: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    line-height: 25px;
+
+}
+
+.btn-follow {
+    margin: auto;
+    padding: 10px 25px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    display: block;
+    width: max-content;
+    border-radius: 2rem;
+    z-index: 2;
+    font-weight: bold;
+}
+
+.heading-4 {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 5px;
+    z-index: 1;
+    margin-bottom: -5px;
+    letter-spacing: 3px;
+}
+
+.mail-to {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.btn-index {
+    font-size: 12px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 10px 25px;
+    border-radius: 1.5rem;
+    margin: 10px;
+    float: right;
+    margin-top: -55px;
+}
+
+
+.plus-loin {
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 2rem;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+.reseau {
+    list-style: none;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    margin-left: 50px;
+    left: 15px;
+} 
+
+.reseau .reseau-sociaux {
+    text-align: center;
+    margin-right: 50px;
+}
+
+.icone-footer {
+    width: 24px;
+    height: 24px;
+}
+
+.reseau .reseau-sociaux .info {
+    color: #fff;
+    font-size: 8px;
+}
+
+.lien-interne {
+    font-size: 11px;
+    line-height: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 70px;
+}
+
+p {
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 2px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.projet-mmi {
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+.logo-mmi {
+    width: 15%;
+    right: 30px;
+    position: absolute;
+    margin-top: -20px;
+    margin-right: 10px;
+}
+
+.mmimontbeliard {
+    width: 230px;
+    margin-bottom: 20px;
+}
+
+.btn-mmi {
+    margin: auto;
+    padding: 10px 25px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    display: block;
+    width: max-content;
+    border-radius: 0.7rem;
+    z-index: 2;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
