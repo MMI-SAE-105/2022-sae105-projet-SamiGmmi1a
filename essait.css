@@ -1,0 +1,88 @@
+*{ 
+    margin:0;
+    padding:0;
+    outline:none;
+    text-decoration:none;
+    list-style:none;
+    font-family: 'Mulish', sans-serif;
+}
+
+.frise-image {
+    margin-left:30px;
+    height: 90px;
+    width: 180px;
+    margin-bottom: 80px;
+    margin-top: -20px;
+}
+
+
+.btn-frise {
+    display: block;
+    position: absolute;
+    padding: 5px 12px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    width: 150px;
+    border-radius: 0.7rem;
+    font-weight: bold;
+    right: 113px;
+    margin-top: -80px;
+    text-align: center;
+}
+
+
+
+
+.overlay {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: translateX(-100vw);
+    transition: all 1s;
+    z-index: 1;
+}
+
+.overlay-open 
+.overlay-open body{
+    overflow: hidden;
+}
+
+
+.overlay-open .overlay {
+    transform: translate(0);
+}
+
+
+.texte {
+    font-size: 25px;
+    margin: 50px;
+    transform: translate(-30px);
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+.frise_title {
+    color: #fff;
+    position: absolute;
+    margin: auto;
+    margin-top: -10px;
+   transform: translate(-30px);
+   opacity: 0;
+    transition: all .3s ease;
+}
+
+.overlay-open .frise_title {
+    transform: translateX(0);
+    opacity: 1  ;
+}
+
+.overlay-open .texte {
+    transform: translateX(0);
+    opacity: 1  ;
+}
+
+.overlay-open .frise_title {transition-delay: .3s;}
+.overlay-open .texte {transition-delay: .6s;}
