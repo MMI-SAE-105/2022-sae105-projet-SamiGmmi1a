@@ -34,18 +34,19 @@
     height: 15px;
     background: #fff;
     border-radius:7px;
+    margin-left: 4.4rem;
 }
         
 .line{
     height: 143px;
     width:2px;
     background: #fff;
-    margin-left: 7rem;
+    margin-left: 5rem;
 }
 
 
 .frise-image {
-    margin-left: 8rem;
+    margin-left: 4rem;
     height: 90px;
     width: 180px;
     margin-bottom: 80px;
@@ -63,9 +64,9 @@
     border-radius: 0.7rem;
     z-index: 2;
     font-weight: bold;
-    right: 113px;
     margin-top: -80px;
     text-align: center;
+    margin-left: 5.6rem;
 }
 
 /*overlay*/
