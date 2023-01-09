@@ -348,17 +348,21 @@ figcaption {
 }
 
 .reseau {
+    display: block;
     list-style: none;
     display: flex;
     margin-top: 30px;
     justify-content: center;
-    margin-left: 50px;
-    left: 15px;
 } 
 
 .reseau .reseau-sociaux {
     text-align: center;
-    margin-right: 50px;
+    margin: 1.5%;
+    
+}
+
+.reseau-sociaux .info {
+    width: 85px;
 }
 
 .icone-footer {
