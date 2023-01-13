@@ -371,6 +371,7 @@ figcaption {
     margin-top: 30px;
     margin-left: 20px;
     margin-bottom: 70px;
+    text-decoration: underline;
 }
 
 p {
