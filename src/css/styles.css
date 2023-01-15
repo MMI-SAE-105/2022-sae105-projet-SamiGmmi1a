@@ -237,7 +237,11 @@ figure {
     margin: auto;
 }
 
-
+.music {
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
 
 figcaption {
     font-size: 12px;
